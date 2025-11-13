@@ -6,6 +6,14 @@ public class Student {
     private String gender;
     private Double score;
 
+    public Student() {}
+
+    public Student(String name, String gender, Double score) {
+        this.name = name;
+        this.gender = gender;
+        this.score = score;
+    }
+
     public Integer getId() {
         return id;
     }

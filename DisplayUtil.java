@@ -10,4 +10,12 @@ public class DisplayUtil {
             5. Delete student by id
             0. Exit application
             """;
+
+    public static void showSuccessMsg(String prefix) {
+        System.out.println(prefix + " successfully");
+    }
+
+    public static void print(String text) {
+        System.out.println(text);
+    }
 }
